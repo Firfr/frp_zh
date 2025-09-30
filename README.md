@@ -6,7 +6,7 @@
 [![GitHub Releases Stats](https://img.shields.io/github/downloads/fatedier/frp/total.svg?logo=github)](https://somsubhra.github.io/github-release-stats/?username=fatedier&repository=frp)
 
 原项目 README 文档
-[中文文档](README_zh.md) | [README](README_en.md)
+[中文文档](README_zh-原项目.md) | [README](README_en-原项目.md)
 
 - 原项目地址
   - 官网 https://gofrp.org/zh-cn/
