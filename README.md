@@ -12,8 +12,8 @@
   - 官网 https://gofrp.org/zh-cn/
   - GitHub仓库 https://github.com/fatedier/frp
 - 我汉化和构建docker镜像的仓库
-  - GitHub仓库 https://github.com/Firfr/frp
-  - Gitee仓库 https://gitee.com/firfe/frp
+  - GitHub仓库 https://github.com/Firfr/frp_zh
+  - Gitee仓库 https://gitee.com/firfe/frp_zh
 
 ## 汉化&镜像制作
 
