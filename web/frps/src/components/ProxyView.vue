@@ -11,14 +11,14 @@
       <template #extra>
         <div class="flex items-center" style="margin-right: 30px">
           <el-popconfirm
-            title="Are you sure to clear all data of offline proxies?"
+            title="确定清除所有离线代理的数据吗？"
             @confirm="clearOfflineProxies"
           >
             <template #reference>
-              <el-button>ClearOfflineProxies</el-button>
+              <el-button>清除离线代理</el-button>
             </template>
           </el-popconfirm>
-          <el-button @click="$emit('refresh')">Refresh</el-button>
+          <el-button @click="$emit('refresh')">刷新</el-button>
         </div>
       </template>
     </el-page-header>
@@ -33,27 +33,27 @@
           <ProxyViewExpand :row="props.row" :proxyType="proxyType" />
         </template>
       </el-table-column>
-      <el-table-column label="Name" prop="name" sortable> </el-table-column>
-      <el-table-column label="Port" prop="port" sortable> </el-table-column>
-      <el-table-column label="Connections" prop="conns" sortable>
+      <el-table-column label="名称" prop="name" sortable> </el-table-column>
+      <el-table-column label="端口" prop="port" sortable> </el-table-column>
+      <el-table-column label="连接数" prop="conns" sortable>
       </el-table-column>
       <el-table-column
-        label="Traffic In"
+        label="流入流量"
         prop="trafficIn"
         :formatter="formatTrafficIn"
         sortable
       >
       </el-table-column>
       <el-table-column
-        label="Traffic Out"
+        label="流出流量"
         prop="trafficOut"
         :formatter="formatTrafficOut"
         sortable
       >
       </el-table-column>
-      <el-table-column label="ClientVersion" prop="clientVersion" sortable>
+      <el-table-column label="客户端版本" prop="clientVersion" sortable>
       </el-table-column>
-      <el-table-column label="Status" prop="status" sortable>
+      <el-table-column label="状态" prop="status" sortable>
         <template #default="scope">
           <el-tag v-if="scope.row.status === 'online'" type="success">{{
             scope.row.status
@@ -61,14 +61,14 @@
           <el-tag v-else type="danger">{{ scope.row.status }}</el-tag>
         </template>
       </el-table-column>
-      <el-table-column label="Operations">
+      <el-table-column label="操作">
         <template #default="scope">
           <el-button
             type="primary"
             :name="scope.row.name"
             style="margin-bottom: 10px"
             @click="dialogVisibleName = scope.row.name; dialogVisible = true"
-            >Traffic
+            >流量
           </el-button>
         </template>
       </el-table-column>
@@ -118,20 +118,20 @@ const clearOfflineProxies = () => {
     .then((res) => {
       if (res.ok) {
         ElMessage({
-          message: 'Successfully cleared offline proxies',
+          message: '成功清除离线代理',
           type: 'success',
         })
         emit('refresh')
       } else {
         ElMessage({
-          message: 'Failed to clear offline proxies: ' + res.status + ' ' + res.statusText,
+          message: '清除离线代理失败: ' + res.status + ' ' + res.statusText,
           type: 'warning',
         })
       }
     })
     .catch((err) => {
       ElMessage({
-        message: 'Failed to clear offline proxies: ' + err.message,
+        message: '清除离线代理失败: ' + err.message,
         type: 'warning',
       })
     })

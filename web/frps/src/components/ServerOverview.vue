@@ -8,58 +8,58 @@
             label-width="220px"
             class="server_info"
           >
-            <el-form-item label="Version">
+            <el-form-item label="版本">
               <span>{{ data.version }}</span>
             </el-form-item>
-            <el-form-item label="BindPort">
+            <el-form-item label="绑定端口">
               <span>{{ data.bindPort }}</span>
             </el-form-item>
-            <el-form-item label="KCP Bind Port" v-if="data.kcpBindPort != 0">
+            <el-form-item label="KCP 绑定端口" v-if="data.kcpBindPort != 0">
               <span>{{ data.kcpBindPort }}</span>
             </el-form-item>
-            <el-form-item label="QUIC Bind Port" v-if="data.quicBindPort != 0">
+            <el-form-item label="QUIC 绑定端口" v-if="data.quicBindPort != 0">
               <span>{{ data.quicBindPort }}</span>
             </el-form-item>
-            <el-form-item label="HTTP Port" v-if="data.vhostHTTPPort != 0">
+            <el-form-item label="HTTP 端口" v-if="data.vhostHTTPPort != 0">
               <span>{{ data.vhostHTTPPort }}</span>
             </el-form-item>
-            <el-form-item label="HTTPS Port" v-if="data.vhostHTTPSPort != 0">
+            <el-form-item label="HTTPS 端口" v-if="data.vhostHTTPSPort != 0">
               <span>{{ data.vhostHTTPSPort }}</span>
             </el-form-item>
             <el-form-item
-              label="TCPMux HTTPConnect Port"
+              label="基于HTTP的TCP多路复用端口"
               v-if="data.tcpmuxHTTPConnectPort != 0"
             >
               <span>{{ data.tcpmuxHTTPConnectPort }}</span>
             </el-form-item>
             <el-form-item
-              label="Subdomain Host"
+              label="子域主机"
               v-if="data.subdomainHost != ''"
             >
               <LongSpan :content="data.subdomainHost" :length="30"></LongSpan>
             </el-form-item>
-            <el-form-item label="Max PoolCount">
+            <el-form-item label="最大连接池数">
               <span>{{ data.maxPoolCount }}</span>
             </el-form-item>
-            <el-form-item label="Max Ports Per Client">
+            <el-form-item label="每个客户端最大端口数">
               <span>{{ data.maxPortsPerClient }}</span>
             </el-form-item>
-            <el-form-item label="Allow Ports" v-if="data.allowPortsStr != ''">
+            <el-form-item label="允许端口" v-if="data.allowPortsStr != ''">
               <LongSpan :content="data.allowPortsStr" :length="30"></LongSpan>
             </el-form-item>
-            <el-form-item label="TLS Force" v-if="data.tlsForce === true">
+            <el-form-item label="强制 TLS" v-if="data.tlsForce === true">
               <span>{{ data.tlsForce }}</span>
             </el-form-item>
-            <el-form-item label="HeartBeat Timeout">
+            <el-form-item label="心跳超时">
               <span>{{ data.heartbeatTimeout }}</span>
             </el-form-item>
-            <el-form-item label="Client Counts">
+            <el-form-item label="客户端数量">
               <span>{{ data.clientCounts }}</span>
             </el-form-item>
-            <el-form-item label="Current Connections">
+            <el-form-item label="当前连接数">
               <span>{{ data.curConns }}</span>
             </el-form-item>
-            <el-form-item label="Proxy Counts">
+            <el-form-item label="代理数量">
               <span>{{ data.proxyCounts }}</span>
             </el-form-item>
           </el-form>
@@ -116,7 +116,7 @@ const fetchData = () => {
       data.value.maxPoolCount = json.maxPoolCount
       data.value.maxPortsPerClient = json.maxPortsPerClient
       if (data.value.maxPortsPerClient == '0') {
-        data.value.maxPortsPerClient = 'no limit'
+        data.value.maxPortsPerClient = '无限制'
       }
       data.value.allowPortsStr = json.allowPortsStr
       data.value.tlsForce = json.tlsForce
@@ -155,7 +155,7 @@ const fetchData = () => {
     .catch(() => {
       ElMessage({
         showClose: true,
-        message: 'Get server info from frps failed!',
+        message: '从 frps 获取服务器信息失败！',
         type: 'warning',
       })
     })

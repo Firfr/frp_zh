@@ -5,55 +5,55 @@
     inline
     class="proxy-table-expand"
   >
-    <el-form-item label="Name">
+    <el-form-item label="名称">
       <span>{{ row.name }}</span>
     </el-form-item>
-    <el-form-item label="Type">
+    <el-form-item label="类型">
       <span>{{ row.type }}</span>
     </el-form-item>
-    <el-form-item label="Encryption">
+    <el-form-item label="加密">
       <span>{{ row.encryption }}</span>
     </el-form-item>
-    <el-form-item label="Compression">
+    <el-form-item label="压缩">
       <span>{{ row.compression }}</span>
     </el-form-item>
-    <el-form-item label="Last Start">
+    <el-form-item label="上次启动">
       <span>{{ row.lastStartTime }}</span>
     </el-form-item>
-    <el-form-item label="Last Close">
+    <el-form-item label="上次关闭">
       <span>{{ row.lastCloseTime }}</span>
     </el-form-item>
 
     <div v-if="proxyType === 'http' || proxyType === 'https'">
-      <el-form-item label="Domains">
+      <el-form-item label="域名">
         <span>{{ row.customDomains }}</span>
       </el-form-item>
-      <el-form-item label="SubDomain">
+      <el-form-item label="子域">
         <span>{{ row.subdomain }}</span>
       </el-form-item>
-      <el-form-item label="locations">
+      <el-form-item label="位置">
         <span>{{ row.locations }}</span>
       </el-form-item>
-      <el-form-item label="HostRewrite">
+      <el-form-item label="主机重写">
         <span>{{ row.hostHeaderRewrite }}</span>
       </el-form-item>
     </div>
     <div v-else-if="proxyType === 'tcpmux'">
-      <el-form-item label="Multiplexer">
+      <el-form-item label="多路复用">
         <span>{{ row.multiplexer }}</span>
       </el-form-item>
-      <el-form-item label="RouteByHTTPUser">
+      <el-form-item label="按 HTTP 用户路由">
         <span>{{ row.routeByHTTPUser }}</span>
       </el-form-item>
-      <el-form-item label="Domains">
+      <el-form-item label="域名">
         <span>{{ row.customDomains }}</span>
       </el-form-item>
-      <el-form-item label="SubDomain">
+      <el-form-item label="子域">
         <span>{{ row.subdomain }}</span>
       </el-form-item>
     </div>
     <div v-else>
-      <el-form-item label="Addr">
+      <el-form-item label="地址">
         <span>{{ row.addr }}</span>
       </el-form-item>
     </div>
@@ -61,7 +61,7 @@
 
   <div v-if="row.annotations && row.annotations.size > 0">
   <el-divider />
-  <el-text class="title-text" size="large">Annotations</el-text>
+  <el-text class="title-text" size="large">注解</el-text>
   <ul>
     <li v-for="item in annotationsArray()">
       <span class="annotation-key">{{ item.key }}</span>

@@ -3,14 +3,14 @@
     <header class="grid-content header-color">
       <div class="header-content">
         <div class="brand">
-          <a href="#">frp</a>
+          <a href="#">frp服务端</a>
         </div>
         <div class="dark-switch">
           <el-switch
             v-model="darkmodeSwitch"
             inline-prompt
-            active-text="Dark"
-            inactive-text="Light"
+            active-text="暗色"
+            inactive-text="亮色"
             @change="toggleDark"
             style="
               --el-switch-on-color: #444452;
@@ -30,10 +30,10 @@
             router="false"
             @select="handleSelect"
           >
-            <el-menu-item index="/">Overview</el-menu-item>
+            <el-menu-item index="/">概览</el-menu-item>
             <el-sub-menu index="/proxies">
               <template #title>
-                <span>Proxies</span>
+                <span>代理</span>
               </template>
               <el-menu-item index="/proxies/tcp">TCP</el-menu-item>
               <el-menu-item index="/proxies/udp">UDP</el-menu-item>
@@ -43,7 +43,7 @@
               <el-menu-item index="/proxies/stcp">STCP</el-menu-item>
               <el-menu-item index="/proxies/sudp">SUDP</el-menu-item>
             </el-sub-menu>
-            <el-menu-item index="">Help</el-menu-item>
+            <el-menu-item index="">帮助</el-menu-item>
           </el-menu>
         </el-col>
 

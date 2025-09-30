@@ -1,14 +1,33 @@
+# 编译
 FROM golang:1.24 AS building
 
-COPY . /building
+# 设置国内镜像源
+RUN go env -w GOPROXY=https://mirrors.aliyun.com/goproxy/,direct
+
+# 设置工作目录
 WORKDIR /building
+
+# 复制 go.mod 和 go.sum 文件（如果存在）
+COPY go.mod go.sum ./
+
+# 下载 Go 依赖项，利用 Docker 缓存机制
+RUN go mod download
+
+# 复制源代码
+
+COPY . /building
 
 RUN make frps
 
-FROM alpine:3
+# 最终镜像
+FROM alpine:3.22.1
 
-RUN apk add --no-cache tzdata
+# 使用国内镜像源
+RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories && \
+    apk add --no-cache tzdata
 
 COPY --from=building /building/bin/frps /usr/bin/frps
 
 ENTRYPOINT ["/usr/bin/frps"]
+
+CMD [ "-c", "/etc/frp/frps.toml" ]

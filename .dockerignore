@@ -1,0 +1,9 @@
+
+.circleci.bak/
+.github.bak/图片/
+.git/
+ts-调试/
+dockerfiles
+.gitignore
+.dockerignore
+*.md
