@@ -1,0 +1,18 @@
+[
+  {
+    "原文": "Local",
+    "翻译": "本地地址"
+  },
+  {
+    "原文": "Plugin",
+    "翻译": "插件"
+  },
+  {
+    "原文": "Remote",
+    "翻译": "远程地址"
+  },
+  {
+    "原文": "\\{ proxy\\.status \\}",
+    "翻译": "{ { 'new': '等待中', 'wait start': '等待中', 'start error': '错误', 'running': '运行中', 'check failed': '错误', 'closed': '已关闭' }[proxy.status] || proxy.status }"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "原文": "Configuration Editor",
+    "翻译": "配置编辑器"
+  },
+  {
+    "原文": "Get configuration failed:",
+    "翻译": "获取配置失败："
+  },
+  {
+    "原文": "This operation will update your frpc configuration and reload it\\. Do you want to continue\\?",
+    "翻译": "此操作将更新您的 frpc 配置并重新加载。是否继续？"
+  },
+  {
+    "原文": "Configuration content cannot be empty!",
+    "翻译": "配置内容不能为空！"
+  },
+  {
+    "原文": "Configuration updated and reloaded successfully",
+    "翻译": "配置更新并重载成功"
+  },
+  {
+    "原文": "Update failed",
+    "翻译": "更新失败"
+  },
+  {
+    "原文": "Confirm Update",
+    "翻译": "确认更新"
+  },
+  {
+    "原文": "content=\"Refresh\"",
+    "翻译": "content=\"刷新\""
+  },
+  {
+    "原文": "Update & Reload",
+    "翻译": "更新并重载"
+  },
+  {
+    "原文": "Update",
+    "翻译": "更新"
+  },
+  {
+    "原文": "Cancel",
+    "翻译": "取消"
+  },
+  {
+    "原文": "Configuration",
+    "翻译": "配置"
+  },
+  {
+    "原文": "Edit and manage your frpc configuration file",
+    "翻译": "编辑和管理您的 frpc 配置文件"
+  },
+  {
+    "原文": "Quick Reference",
+    "翻译": "快速参考"
+  },
+  {
+    "原文": "Common Settings",
+    "翻译": "常用设置"
+  },
+  {
+    "原文": "Server address",
+    "翻译": "服务器地址"
+  },
+  {
+    "原文": "Server port \\(default: 7000\\)",
+    "翻译": "服务器端口（默认：7000）"
+  },
+  {
+    "原文": "Authentication token",
+    "翻译": "认证令牌"
+  },
+  {
+    "原文": "Proxy Types",
+    "翻译": "代理类型"
+  },
+  {
+    "原文": "Example Proxy",
+    "翻译": "代理示例"
+  },
+  {
+    "原文": "View Full Documentation",
+    "翻译": "查看完整文档"
+  }
+]

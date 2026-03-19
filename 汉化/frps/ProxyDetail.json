@@ -1,0 +1,110 @@
+[
+  {
+    "原文": " proxy\\.status \\}",
+    "翻译": " proxy.status == 'online' ? '在线' : '离线' }"
+  },
+  {
+    "原文": "Clients",
+    "翻译": "客户端"
+  },
+  {
+    "原文": ">Proxies",
+    "翻译": ">代理"
+  },
+  {
+    "原文": ">Client",
+    "翻译": ">客户端"
+  },
+  {
+    "原文": ">Port",
+    "翻译": ">端口"
+  },
+  {
+    "原文": ">Connections",
+    "翻译": ">连接数"
+  },
+  {
+    "原文": "Traffic In",
+    "翻译": "入站流量"
+  },
+  {
+    "原文": "Traffic Out",
+    "翻译": "出站流量"
+  },
+  {
+    "原文": "Status Timeline",
+    "翻译": "状态时间线"
+  },
+  {
+    "原文": "Last Start Time",
+    "翻译": "最后启动时间"
+  },
+  {
+    "原文": "Last Close Time",
+    "翻译": "最后关闭时间"
+  },
+  {
+    "原文": "Configuration",
+    "翻译": "配置"
+  },
+  {
+    "原文": "Encryption",
+    "翻译": "加密"
+  },
+  {
+    "原文": "'Enabled'",
+    "翻译": "'已启用'"
+  },
+  {
+    "原文": "'Disabled'",
+    "翻译": "'已禁用'"
+  },
+  {
+    "原文": "Compression",
+    "翻译": "压缩"
+  },
+  {
+    "原文": "Custom Domains",
+    "翻译": "自定义域名"
+  },
+  {
+    "原文": "Subdomain",
+    "翻译": "子域名"
+  },
+  {
+    "原文": "Locations",
+    "翻译": "位置"
+  },
+  {
+    "原文": "Host Rewrite",
+    "翻译": "主机重写"
+  },
+  {
+    "原文": "Multiplexer",
+    "翻译": "多路复用器"
+  },
+  {
+    "原文": "Route By HTTP User",
+    "翻译": "按 HTTP 用户路由"
+  },
+  {
+    "原文": "Traffic Statistics",
+    "翻译": "流量统计"
+  },
+  {
+    "原文": "Proxy not found",
+    "翻译": "未找到代理"
+  },
+  {
+    "原文": "The proxy doesn't exist or has been removed\\.",
+    "翻译": "代理不存在或已被移除。"
+  },
+  {
+    "原文": "Back to Proxies",
+    "翻译": "返回代理"
+  },
+  {
+    "原文": "Failed to fetch proxy",
+    "翻译": "获取代理失败"
+  }
+]
