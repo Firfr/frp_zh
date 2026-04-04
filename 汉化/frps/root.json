@@ -1,0 +1,50 @@
+[
+  {
+    "原文": "config file of frps",
+    "翻译": "frps 的配置文件路径"
+  },
+  {
+    "原文": "version of frps",
+    "翻译": "查看 frps 版本信息"
+  },
+  {
+    "原文": "strict config parsing mode, unknown fields will cause errors",
+    "翻译": "严格配置解析模式，遇到未知字段会报错"
+  },
+  {
+    "原文": "allowed unsafe features, one or more of",
+    "翻译": "允许使用的不安全功能，可指定一个或多个"
+  },
+  {
+    "原文": "frps is the server of frp",
+    "翻译": "frps 是 frp 的服务端程序"
+  },
+  {
+    "原文": "WARNING: ini format is deprecated and the support will be removed in the future,",
+    "翻译": "警告：ini 格式已废弃，未来将不再支持，"
+  },
+  {
+    "原文": "please use yaml/json/toml format instead!",
+    "翻译": "请使用 yaml/json/toml 格式！"
+  },
+  {
+    "原文": "failed to complete server config",
+    "翻译": "生成服务端配置失败"
+  },
+  {
+    "原文": "WARNING",
+    "翻译": "警告"
+  },
+  {
+    "原文": "frps uses config file",
+    "翻译": "frps 使用配置文件"
+  },
+  {
+    "原文": "frps uses command line arguments for config",
+    "翻译": "frps 使用命令行参数作为配置"
+  },
+  {
+    "原文": "frps started successfully",
+    "翻译": "frps 启动成功"
+  }
+]

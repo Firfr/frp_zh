@@ -1,5 +1,5 @@
 # 编译
-FROM docker.code.firfe.work/golang:1.24 AS building
+FROM docker.code.firfe.work/golang:1.26 AS building
 
 # 设置国内镜像源
 RUN go env -w GOPROXY=https://mirrors.aliyun.com/goproxy/,direct
@@ -17,10 +17,10 @@ RUN go mod download
 
 COPY 代码 /building
 
-RUN make frpc
+RUN env CGO_ENABLED=0 go build -trimpath -ldflags "-s -w" -tags frpc -o bin/frpc ./cmd/frpc
 
 # 最终镜像
-FROM docker.code.firfe.work/alpine:3.23.0
+FROM docker.code.firfe.work/alpine:3.23
 
 # 使用国内镜像源
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g' /etc/apk/repositories && \
@@ -30,4 +30,4 @@ COPY --from=building /building/bin/frpc /usr/bin/frpc
 
 ENTRYPOINT ["/usr/bin/frpc"]
 
-CMD [ "-c", "/etc/frp/frpc.toml" ]
+CMD [ "-c", "/frp/frpc.toml" ]

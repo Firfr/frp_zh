@@ -1,0 +1,22 @@
+[
+  {
+    "原文": "HTTP Options",
+    "翻译": "HTTP 选项"
+  },
+  {
+    "原文": "Locations",
+    "翻译": "路径"
+  },
+  {
+    "原文": "Host Header Rewrite",
+    "翻译": "主机头重写"
+  },
+  {
+    "原文": "Request Headers",
+    "翻译": "请求头"
+  },
+  {
+    "原文": "Response Headers",
+    "翻译": "响应头"
+  }
+]

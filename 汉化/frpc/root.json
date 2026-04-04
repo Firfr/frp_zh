@@ -1,0 +1,66 @@
+[
+  {
+    "原文": "frpc\\.ini",
+    "翻译": "frpc.toml"
+  },
+  {
+    "原文": "config file of frpc",
+    "翻译": "frpc 配置文件路径"
+  },
+  {
+    "原文": "config directory, run one frpc service for each file in config directory",
+    "翻译": "配置目录，为每个文件启动一个 frpc 服务"
+  },
+  {
+    "原文": "version of frpc",
+    "翻译": "查看 frpc 版本信息"
+  },
+  {
+    "原文": "strict config parsing mode, unknown fields will cause an errors",
+    "翻译": "严格配置解析模式，未知字段将报错"
+  },
+  {
+    "原文": "allowed unsafe features, one or more of",
+    "翻译": "允许的不安全功能，可选一个或多个"
+  },
+  {
+    "原文": "frpc is the client of frp",
+    "翻译": "frpc 是 frp 的客户端程序"
+  },
+  {
+    "原文": "frpc service error for config file",
+    "翻译": "frpc 服务出错，配置文件"
+  },
+  {
+    "原文": "WARNING: ini format is deprecated and the support will be removed in the future,",
+    "翻译": "警告：ini 格式已废弃，未来将移除支持，"
+  },
+  {
+    "原文": "please use yaml/json/toml format instead",
+    "翻译": "请使用 yaml/json/toml 格式"
+  },
+  {
+    "原文": "failed to set config source",
+    "翻译": "设置配置源失败"
+  },
+  {
+    "原文": "failed to create store source",
+    "翻译": "创建存储配置源失败"
+  },
+  {
+    "原文": "failed to load config from sources",
+    "翻译": "从配置源加载配置失败"
+  },
+  {
+    "原文": "WARNING",
+    "翻译": "警告"
+  },
+  {
+    "原文": "start frpc service for config file \\\\[%s\\\\] with aggregated configuration",
+    "翻译": "开始为配置文件 [%s] 启动 frpc 服务（使用聚合配置）"
+  },
+  {
+    "原文": "frpc service for config file \\\\[%s\\\\] stopped",
+    "翻译": "配置文件 [%s] 的 frpc 服务已停止"
+  }
+]

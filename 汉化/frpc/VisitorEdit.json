@@ -1,0 +1,90 @@
+[
+  {
+    "原文": "Visitors",
+    "翻译": "访客"
+  },
+  {
+    "原文": "Edit Visitor",
+    "翻译": "编辑访客"
+  },
+  {
+    "原文": "New Visitor",
+    "翻译": "新建访客"
+  },
+  {
+    "原文": ">Cancel",
+    "翻译": ">取消"
+  },
+  {
+    "原文": "'Update'",
+    "翻译": "'更新'"
+  },
+  {
+    "原文": "'Create'",
+    "翻译": "'创建'"
+  },
+  {
+    "原文": "Unsaved Changes",
+    "翻译": "未保存的更改"
+  },
+  {
+    "原文": "You have unsaved changes. Are you sure you want to leave\\?",
+    "翻译": "你有未保存的修改，确定要离开吗？"
+  },
+  {
+    "原文": "Name is required",
+    "翻译": "名称不能为空"
+  },
+  {
+    "原文": "Length should be 1 to 50",
+    "翻译": "长度必须在 1 到 50 个字符之间"
+  },
+  {
+    "原文": "Type is required",
+    "翻译": "请选择类型"
+  },
+  {
+    "原文": "Server name is required",
+    "翻译": "服务名称不能为空"
+  },
+  {
+    "原文": "Bind port is required",
+    "翻译": "绑定端口不能为空"
+  },
+  {
+    "原文": "Bind port must be less than or equal to 65535",
+    "翻译": "绑定端口必须小于等于 65535"
+  },
+  {
+    "原文": "SUDP bind port must be greater than 0",
+    "翻译": "SUDP 绑定端口必须大于 0"
+  },
+  {
+    "原文": "Bind port cannot be 0",
+    "翻译": "绑定端口不能为 0"
+  },
+  {
+    "原文": "Failed to load visitor:",
+    "翻译": "加载访客失败："
+  },
+  {
+    "原文": "Please fix the form errors",
+    "翻译": "请修正表单中的错误"
+  },
+  {
+    "原文": "Visitor updated",
+    "翻译": "访客更新成功"
+  },
+  {
+    "原文": "Visitor created",
+    "翻译": "访客创建成功"
+  },
+  {
+    "原文": "Operation failed:",
+    "翻译": "操作失败："
+  },
+  {
+    "原文": "Unknown error",
+    "翻译": "未知错误"
+  }
+]

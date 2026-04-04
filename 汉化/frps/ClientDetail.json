@@ -4,6 +4,18 @@
     "翻译": ">客户端<"
   },
   {
+    "原文": ">v\\{",
+    "翻译": ">版本 {"
+  },
+  {
+    "原文": "ip\" class=\"meta-item\">\\{",
+    "翻译": "ip\" class=\"meta-item\">IP {"
+  },
+  {
+    "原文": "hostname\" class=\"meta-item\">\\{",
+    "翻译": "hostname\" class=\"meta-item\">主机名 {"
+  },
+  {
     "原文": "'Online'",
     "翻译": "'在线'"
   },

@@ -1,0 +1,46 @@
+[
+  {
+    "原文": "XTCP Options",
+    "翻译": "XTCP 选项"
+  },
+  {
+    "原文": "Protocol",
+    "翻译": "传输协议"
+  },
+  {
+    "原文": "Keep Tunnel Open",
+    "翻译": "保持隧道打开"
+  },
+  {
+    "原文": "Max Retries per Hour",
+    "翻译": "每小时最大重试次数"
+  },
+  {
+    "原文": "Min Retry Interval \\(s\\)",
+    "翻译": "最小重试间隔(秒)"
+  },
+  {
+    "原文": "Fallback To",
+    "翻译": "降级备用"
+  },
+  {
+    "原文": "Fallback visitor name",
+    "翻译": "备用访客名称"
+  },
+  {
+    "原文": "Fallback Timeout \\(ms\\)",
+    "翻译": "降级超时(毫秒)"
+  },
+  {
+    "原文": "NAT Traversal",
+    "翻译": "NAT 穿透"
+  },
+  {
+    "原文": "Disable Assisted Addresses",
+    "翻译": "禁用辅助地址"
+  },
+  {
+    "原文": "Only use STUN-discovered public addresses",
+    "翻译": "仅使用 STUN 发现的公网地址"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "原文": "Proxies",
+    "翻译": "代理列表"
+  },
+  {
+    "原文": "Edit Proxy",
+    "翻译": "编辑代理"
+  },
+  {
+    "原文": "New Proxy",
+    "翻译": "新建代理"
+  },
+  {
+    "原文": ">Cancel",
+    "翻译": ">取消"
+  },
+  {
+    "原文": "'Update'",
+    "翻译": "'更新'"
+  },
+  {
+    "原文": "'Create'",
+    "翻译": "'创建'"
+  },
+  {
+    "原文": "Unsaved Changes",
+    "翻译": "未保存的更改"
+  },
+  {
+    "原文": "You have unsaved changes\\. Are you sure you want to leave\\?",
+    "翻译": "你有未保存的修改，确定要离开吗？"
+  },
+  {
+    "原文": "Name is required",
+    "翻译": "代理名称不能为空"
+  },
+  {
+    "原文": "Length should be 1 to 50",
+    "翻译": "长度必须在 1 到 50 个字符之间"
+  },
+  {
+    "原文": "Type is required",
+    "翻译": "请选择代理类型"
+  },
+  {
+    "原文": "Local port is required",
+    "翻译": "本地端口不能为空"
+  },
+  {
+    "原文": "Custom domains or subdomain is required",
+    "翻译": "自定义域名或子域名不能为空"
+  },
+  {
+    "原文": "Path is required for HTTP health check",
+    "翻译": "HTTP 健康检查必须填写路径"
+  },
+  {
+    "原文": "Failed to load proxy:",
+    "翻译": "加载代理失败："
+  },
+  {
+    "原文": "Please fix the form errors",
+    "翻译": "请修正表单中的错误"
+  },
+  {
+    "原文": "Proxy updated",
+    "翻译": "代理更新成功"
+  },
+  {
+    "原文": "Proxy created",
+    "翻译": "代理创建成功"
+  },
+  {
+    "原文": "Operation failed:",
+    "翻译": "操作失败："
+  },
+  {
+    "原文": "Unknown error",
+    "翻译": "未知错误"
+  }
+]

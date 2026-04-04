@@ -8,24 +8,12 @@
     "翻译": "查看和管理所有代理配置"
   },
   {
-    "原文": ">Refresh",
+    "原文": ">[[:space:]]*Refresh",
     "翻译": ">刷新"
   },
   {
-    "原文": "Clear all offline proxies\\?",
-    "翻译": "确定要清除所有离线代理？"
-  },
-  {
-    "原文": "\"Clear\"",
-    "翻译": "\"清除\""
-  },
-  {
-    "原文": "\"Cancel\"",
-    "翻译": "\"取消\""
-  },
-  {
-    "原文": "Clear Offline",
-    "翻译": "清除离线代理"
+    "原文": ">[[:space:]]*Clear Offline",
+    "翻译": ">清除离线代理"
   },
   {
     "原文": "Search proxies",
@@ -42,6 +30,18 @@
   {
     "原文": "No proxies found",
     "翻译": "未找到代理"
+  },
+  {
+    "原文": "Clear Offline",
+    "翻译": "清除离线代理"
+  },
+  {
+    "原文": "Are you sure you want to clear all offline proxies",
+    "翻译": "你确定要清除所有离线代理吗"
+  },
+  {
+    "原文": "\"Clear\"",
+    "翻译": "\"清除\""
   },
   {
     "原文": "Failed to fetch proxies",

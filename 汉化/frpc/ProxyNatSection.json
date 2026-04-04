@@ -1,0 +1,14 @@
+[
+  {
+    "原文": "NAT Traversal",
+    "翻译": "NAT 穿透"
+  },
+  {
+    "原文": "Disable Assisted Addresses",
+    "翻译": "禁用辅助地址"
+  },
+  {
+    "原文": "Only use STUN-discovered public addresses",
+    "翻译": "仅使用 STUN 发现的公网地址"
+  }
+]

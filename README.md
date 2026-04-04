@@ -15,12 +15,14 @@
     - 服务端 https://hub.docker.com/r/firfe/frps
     - 客户端 https://hub.docker.com/r/firfe/frpc
 
+0.68.0 这个版本在客户端界面上发生了非常大的改变，这个版本可以直接在图形界面中创建代理，而不是之前的修改配置文件的方法。
+
 ## 汉化&镜像制作
 
 如果镜像拉取失败，请B站发私信，或提issues，  
 华为云上的镜像仓库默认推送的镜像不是公开的，有可能是我忘记设置公开了。
 
-当前制作镜像版本(或截止更新日期)：0.67.0
+当前制作镜像版本(或截止更新日期)：0.68.0
 
 原项目没有中文，我就行了汉化，制作了中文docker镜像。并提供汉化的 Windows AMD64 版本的服务端和客户端。
 
@@ -34,6 +36,17 @@
 或者邮箱 `firfe163@163.com`  
 如果这个项目有帮到你。欢迎start。也厚颜期待您的[打赏](https://gitee.com/firfe/me)。
 
+## 关于网页界面
+
+在使用非 Docker 部署的情况下，任然想要使用我汉化的网页界面，是可以的。
+- 直接使用官方提供的软件
+- 下载我提供的的静态资源文件
+  - 服务端文件 `frps-static`
+  - 客户端文件 `frpc-static`
+- 设置配置文件中 `[webServer]` 部分
+  - 添加 `assetsDir = "/frp/static"`
+  - 其中 `/frp/static` 改成实际的静态资源文件目录
+
 ### 镜像
 
 从阿里云或华为云镜像仓库拉取镜像，注意填写镜像标签，镜像仓库中没有`latest`标签
@@ -43,20 +56,20 @@
 - 国内仓库
   - AMD64镜像
     ```bash
-    swr.cn-north-4.myhuaweicloud.com/firfe/frps:0.67.0
+    swr.cn-north-4.myhuaweicloud.com/firfe/frps:0.68.0
     ```
   - ARM64镜像
     ```bash
-    swr.cn-north-4.myhuaweicloud.com/firfe/frps:0.67.0-arm64
+    swr.cn-north-4.myhuaweicloud.com/firfe/frps:0.68.0-arm64
     ```
 - DockerHub仓库
   - AMD64镜像
     ```bash
-    firfe/frps:0.67.0
+    firfe/frps:0.68.0
     ```
   - ARM64镜像
     ```bash
-    firfe/frps:0.67.0-arm64
+    firfe/frps:0.68.0-arm64
     ```
 
 #### 客户端
@@ -64,20 +77,20 @@
 - 国内仓库
   - AMD64镜像
     ```bash
-    swr.cn-north-4.myhuaweicloud.com/firfe/frpc:0.67.0
+    swr.cn-north-4.myhuaweicloud.com/firfe/frpc:0.68.0
     ```
   - ARM64镜像
     ```bash
-    swr.cn-north-4.myhuaweicloud.com/firfe/frpc:0.67.0-arm64
+    swr.cn-north-4.myhuaweicloud.com/firfe/frpc:0.68.0-arm64
     ```
 - DockerHub仓库
   - AMD64镜像
     ```bash
-    firfe/frpc:0.67.0
+    firfe/frpc:0.68.0
     ```
   - ARM64镜像
     ```bash
-    firfe/frpc:0.67.0-arm64
+    firfe/frpc:0.68.0-arm64
     ```
 
 ### 部署
@@ -88,8 +101,6 @@
 
 ### 效果截图
 
-| ![服务端-概览](图片/服务端-概览.jpg) | ![服务端-连接客户端](图片/服务端-连接客户端.jpg) |
+| ![服务端-概览](图片/服务端-概览.jpg) | ![客户端-代理](图片/客户端-代理.jpg) |
 | :-: | :-: |
-| ![服务端-客户端详情](图片/服务端-客户端详情.jpg) | ![服务端-转发详情](图片/服务端-转发详情.jpg) |
-| ![服务端-代理](图片/服务端-代理.jpg) | ![服务端-连接流量](图片/服务端-连接流量.jpg) |
-| ![客户端-概览](图片/客户端-概览.jpg) | ![客户端-配置](图片/客户端-配置.jpg) |
+| ![服务端-客户端和代理](图片/服务端-客户端和代理.jpg) | ![客户端-访问端](图片/客户端-访问端.jpg) |

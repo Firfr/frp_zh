@@ -1,0 +1,70 @@
+[
+  {
+    "原文": "config source aggregator is required",
+    "翻译": "必须配置配置源聚合器"
+  },
+  {
+    "原文": "failed to load config from aggregator",
+    "翻译": "从聚合器加载配置失败"
+  },
+  {
+    "原文": "init virtual network controller erro",
+    "翻译": "初始化虚拟网络控制器失败"
+  },
+  {
+    "原文": "virtual network controller start",
+    "翻译": "虚拟网络控制器启动中"
+  },
+  {
+    "原文": "virtual network controller exit with error",
+    "翻译": "虚拟网络控制器异常退出"
+  },
+  {
+    "原文": "admin server listen on",
+    "翻译": "管理后台服务监听地址"
+  },
+  {
+    "原文": "admin server exit with error",
+    "翻译": "管理后台服务异常退出"
+  },
+  {
+    "原文": "login to the server failed",
+    "翻译": "登录服务端失败"
+  },
+  {
+    "原文": "\\. With loginFailExit enabled, no additional retries will be attempted",
+    "翻译": "。已启用登录失败退出策略，不再进行重试"
+  },
+  {
+    "原文": "control is closed and try another loop",
+    "翻译": "控制连接已关闭，尝试重新建立连接"
+  },
+  {
+    "原文": "login to server success, get run id",
+    "翻译": "登录服务端成功，获取运行 ID"
+  },
+  {
+    "原文": "try to connect to server",
+    "翻译": "正在尝试连接服务端"
+  },
+  {
+    "原文": "connect to server error",
+    "翻译": "连接服务端出错"
+  },
+  {
+    "原文": "new control error",
+    "翻译": "创建控制连接失败"
+  },
+  {
+    "原文": "config source is not available",
+    "翻译": "配置源不可用"
+  },
+  {
+    "原文": "config aggregator is not initialized",
+    "翻译": "配置聚合器未初始化"
+  },
+  {
+    "原文": "reload config from sources failed",
+    "翻译": "从配置源重新加载配置失败"
+  }
+]

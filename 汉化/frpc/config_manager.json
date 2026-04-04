@@ -1,0 +1,98 @@
+[
+  {
+    "原文": "frpc has no config file path",
+    "翻译": "frpc 未指定配置文件路径"
+  },
+  {
+    "原文": "success reload conf",
+    "翻译": "配置重新加载成功"
+  },
+  {
+    "原文": "body can't be empty",
+    "翻译": "内容不能为空"
+  },
+  {
+    "原文": "proxy name is required",
+    "翻译": "必须指定代理名称"
+  },
+  {
+    "原文": "\"%w: proxy %q\"",
+    "翻译": "\"%w: 未找到代理 %q\""
+  },
+  {
+    "原文": "validation error",
+    "翻译": "配置校验失败"
+  },
+  {
+    "原文": "store: created proxy",
+    "翻译": "存储：已创建代理"
+  },
+  {
+    "原文": "invalid proxy config: type is required",
+    "翻译": "代理配置无效：必须指定类型"
+  },
+  {
+    "原文": "proxy name in URL must match name in body",
+    "翻译": "URL 中的代理名称与请求体不一致"
+  },
+  {
+    "原文": "store: updated proxy",
+    "翻译": "存储：已更新代理"
+  },
+  {
+    "原文": "store: deleted proxy",
+    "翻译": "存储：已删除代理"
+  },
+  {
+    "原文": "visitor name is required",
+    "翻译": "访问端名称为必填项"
+  },
+  {
+    "原文": "\"%w: visitor %q\"",
+    "翻译": "\"%w: 访问端 %q\""
+  },
+  {
+    "原文": "store: created visitor",
+    "翻译": "存储：已创建访问端"
+  },
+  {
+    "原文": "invalid visitor config: type is required",
+    "翻译": "访问端配置无效：必须指定类型"
+  },
+  {
+    "原文": "visitor name in URL must match name in body",
+    "翻译": "URL 中的访问端名称与请求体不一致"
+  },
+  {
+    "原文": "store: updated visitor",
+    "翻译": "存储：已更新访问端"
+  },
+  {
+    "原文": "store: deleted visitor",
+    "翻译": "存储：已删除访问端"
+  },
+  {
+    "原文": "store API is disabled",
+    "翻译": "存储 API 未启用"
+  },
+  {
+    "原文": "failed to apply config",
+    "翻译": "应用配置失败"
+  },
+  {
+    "原文": "proxy %q not found in store after mutation",
+    "翻译": "更新后在存储中未找到代理 %q"
+  },
+  {
+    "原文": "visitor %q not found in store after mutation",
+    "翻译": "更新后在存储中未找到访问端 %q"
+  },
+  {
+    "原文": "invalid proxy config",
+    "翻译": "代理配置无效"
+  },
+  {
+    "原文": "invalid visitor config",
+    "翻译": "访问端配置无效"
+  }
+]

@@ -1,18 +1,26 @@
 [
   {
-    "原文": "Local",
-    "翻译": "本地地址"
-  },
-  {
-    "原文": "Plugin",
-    "翻译": "插件"
-  },
-  {
-    "原文": "Remote",
-    "翻译": "远程地址"
-  },
-  {
     "原文": "\\{ proxy\\.status \\}",
-    "翻译": "{ { 'new': '等待中', 'wait start': '等待中', 'start error': '错误', 'running': '运行中', 'check failed': '错误', 'closed': '已关闭' }[proxy.status] || proxy.status }"
+    "翻译": "{ { 'running': '运行中', 'error': '错误', 'disabled': '禁用', 'waiting': '等待中', 'new': '新创建' }[proxy.status] || proxy.status }"
+  },
+  {
+    "原文": "Enable",
+    "翻译": "启用"
+  },
+  {
+    "原文": "Disable",
+    "翻译": "禁用"
+  },
+  {
+    "原文": "  Edit",
+    "翻译": "编辑"
+  },
+  {
+    "原文": "  Delete",
+    "翻译": "删除"
+  },
+  {
+    "原文": "\\{ displaySource \\}",
+    "翻译": "{ displaySource === 'config' ? '配置文件' : '动态存储' }"
   }
 ]

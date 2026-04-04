@@ -1,0 +1,34 @@
+[
+  {
+    "原文": ">Not Found",
+    "翻译": ">未找到"
+  },
+  {
+    "原文": "The page you requested was not found\\.",
+    "翻译": "您请求的页面未找到。"
+  },
+  {
+    "原文": "Sorry, the page you are looking for is currently unavailable\\.",
+    "翻译": "抱歉，您正在查找的页面目前无法访问。"
+  },
+  {
+    "原文": "Please try again later\\.",
+    "翻译": "请稍后再试。"
+  },
+  {
+    "原文": "The server is powered by",
+    "翻译": "该服务器由 "
+  },
+  {
+    "原文": "a>\\.<",
+    "翻译": "a> 提供支持。<br/>项目由 <a href=\"https://space.bilibili.com/17547201\">秦曱凧</a> 汉化。<"
+  },
+  {
+    "原文": "Faithfully yours, frp\\.",
+    "翻译": "此致，frp 。"
+  },
+  {
+    "原文": "html\"",
+    "翻译": "html; charset=utf-8\""
+  }
+]
