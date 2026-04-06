@@ -38,11 +38,11 @@
 
 有需要购买服务器的朋友，可以通过下面的推广链接购买服务器，来支持我。
 
-腾讯云 https://curl.qcloud.com/RJz7oNIa
+腾讯云 [https://curl.qcloud.com/RJz7oNIa](https://curl.qcloud.com/RJz7oNIa)
 
-阿里云 https://www.aliyun.com/minisite/goods?userCode=napc1zre
+阿里云 [https://www.aliyun.com/minisite/goods?userCode=napc1zre](https://www.aliyun.com/minisite/goods?userCode=napc1zre)
 
-雨云 https://www.rainyun.com/MTA0OTAwMw==_
+雨云 [https://www.rainyun.com/MTA0OTAwMw==_](https://www.rainyun.com/MTA0OTAwMw==_)
 
 ## 关于网页界面
 
