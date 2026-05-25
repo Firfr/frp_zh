@@ -5,7 +5,7 @@
   },
   {
     "原文": "\\{ proxy\\.status \\}",
-    "翻译": "{ { 'running': '运行中', 'error': '错误', 'disabled': '禁用', 'waiting': '等待中', 'new': '新创建' }[proxy.status] || proxy.status }"
+    "翻译": "{ fn代理状态转换(proxy.status) }"
   },
   {
     "原文": "Source:",
@@ -38,6 +38,10 @@
   {
     "原文": "Connection Error",
     "翻译": "连接错误"
+  },
+  {
+    "原文": "\\{ proxy\\.err \\}",
+    "翻译": "{ fn代理错误信息转换(proxy.err) }"
   },
   {
     "原文": "'store'",

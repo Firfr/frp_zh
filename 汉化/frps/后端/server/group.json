@@ -1,0 +1,26 @@
+[
+  {
+    "原文": "group auth failed",
+    "翻译": "群组鉴权失败"
+  },
+  {
+    "原文": "group params invalid",
+    "翻译": "群组参数无效"
+  },
+  {
+    "原文": "group listener closed",
+    "翻译": "群组监听器已关闭"
+  },
+  {
+    "原文": "group should have same remote port",
+    "翻译": "同一群组必须使用相同的远程端口"
+  },
+  {
+    "原文": "group proxy repeated",
+    "翻译": "群组内的代理重复"
+  },
+  {
+    "原文": "stale group reference",
+    "翻译": "过期的群组引用"
+  }
+]

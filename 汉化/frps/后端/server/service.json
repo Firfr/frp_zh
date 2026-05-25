@@ -138,5 +138,49 @@
   {
     "原文": "invalid NewWorkConn with run id",
     "翻译": "不合法的工作连接，运行ID"
+  },
+  {
+    "原文": "failed to accept frp connection",
+    "翻译": "接受 frp 连接失败"
+  },
+  {
+    "原文": "write login error response error",
+    "翻译": "写入登录错误响应时发生异常"
+  },
+  {
+    "原文": "write login response error",
+    "翻译": "写入登录响应失败"
+  },
+  {
+    "原文": "invalid NewWorkConn",
+    "翻译": "无效的新工作连接"
+  },
+  {
+    "原文": "read wire protocol magic",
+    "翻译": "读取线路协议魔数 (magic number) 失败"
+  },
+  {
+    "原文": "missing v2 crypto negotiation",
+    "翻译": "缺失 V2 版本加密协商过程"
+  },
+  {
+    "原文": "read first v2 message frame",
+    "翻译": "读取首个 V2 消息帧失败"
+  },
+  {
+    "原文": "decode v2 message",
+    "翻译": "解码 V2 消息失败"
+  },
+  {
+    "原文": "write ServerHello error",
+    "翻译": "写入服务端握手响应 (ServerHello) 失败"
+  },
+  {
+    "原文": "encode ServerHello",
+    "翻译": "编码服务端握手响应 (ServerHello) 失败"
+  },
+  {
+    "原文": "write ServerHello",
+    "翻译": "发送服务端握手响应 (ServerHello) 失败"
   }
 ]

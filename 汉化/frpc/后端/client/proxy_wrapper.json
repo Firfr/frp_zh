@@ -1,0 +1,26 @@
+[
+  {
+    "原文": "health check success",
+    "翻译": "健康检查成功"
+  },
+  {
+    "原文": "health check failed",
+    "翻译": "健康检查失败"
+  },
+  {
+    "原文": "start a new work connection, localAddr: %s remoteAddr",
+    "翻译": "启动新的工作连接，本地地址: %s，远端地址:"
+  },
+  {
+    "原文": "enable health check monitor",
+    "翻译": "已启用健康检查监控"
+  },
+  {
+    "原文": "status not wait start, ignore start message",
+    "翻译": "当前状态非等待启动，忽略启动消息"
+  },
+  {
+    "原文": "change status from \\\\[%s\\\\] to",
+    "翻译": "状态由 [%s] 变更为:"
+  }
+]

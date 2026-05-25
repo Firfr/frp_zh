@@ -1,0 +1,14 @@
+[
+  {
+    "原文": "http proxy listen for host \\\\[%s\\\\] location \\\\[%s\\\\] group \\\\[%s\\\\], routeByHTTPUser",
+    "翻译": "HTTP 代理正在监听，主机: [%s]，路径: [%s]，群组: [%s]，按 HTTP 用户进行路由"
+  },
+  {
+    "原文": "resolve TCP addr \\\\[%s\\\\] error",
+    "翻译": "解析 TCP 地址 [%s] 失败"
+  },
+  {
+    "原文": "create encryption stream error",
+    "翻译": "创建加密流失败"
+  }
+]

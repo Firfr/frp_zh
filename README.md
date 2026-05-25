@@ -22,7 +22,7 @@
 如果镜像拉取失败，请B站发私信，或提issues，  
 华为云上的镜像仓库默认推送的镜像不是公开的，有可能是我忘记设置公开了。
 
-当前制作镜像版本(或截止更新日期)：0.68.0
+当前制作镜像版本(或截止更新日期)：0.69.0
 
 原项目没有中文，我就行了汉化，制作了中文docker镜像。并提供汉化的 Windows AMD64 版本的服务端和客户端。
 
@@ -37,12 +37,9 @@
 如果这个项目有帮到你。欢迎start。也厚颜期待您的[打赏](https://gitee.com/firfe/me)。
 
 有需要购买服务器的朋友，可以通过下面的推广链接购买服务器，来支持我。
-
-腾讯云 [https://curl.qcloud.com/RJz7oNIa](https://curl.qcloud.com/RJz7oNIa)
-
-阿里云 [https://www.aliyun.com/minisite/goods?userCode=napc1zre](https://www.aliyun.com/minisite/goods?userCode=napc1zre)
-
-雨云 [https://www.rainyun.com/MTA0OTAwMw==_](https://www.rainyun.com/MTA0OTAwMw==_)
+- 腾讯云 https://curl.qcloud.com/RJz7oNIa
+- 阿里云 https://www.aliyun.com/minisite/goods?userCode=napc1zre
+- 雨云 https://www.rainyun.com/MTA0OTAwMw==_
 
 ## 关于网页界面
 
@@ -64,20 +61,20 @@
 - 国内仓库
   - AMD64镜像
     ```bash
-    swr.cn-north-4.myhuaweicloud.com/firfe/frps:0.68.0
+    swr.cn-north-4.myhuaweicloud.com/firfe/frps:0.69.0
     ```
   - ARM64镜像
     ```bash
-    swr.cn-north-4.myhuaweicloud.com/firfe/frps:0.68.0-arm64
+    swr.cn-north-4.myhuaweicloud.com/firfe/frps:0.69.0-arm64
     ```
 - DockerHub仓库
   - AMD64镜像
     ```bash
-    firfe/frps:0.68.0
+    firfe/frps:0.69.0
     ```
   - ARM64镜像
     ```bash
-    firfe/frps:0.68.0-arm64
+    firfe/frps:0.69.0-arm64
     ```
 
 #### 客户端
@@ -85,20 +82,20 @@
 - 国内仓库
   - AMD64镜像
     ```bash
-    swr.cn-north-4.myhuaweicloud.com/firfe/frpc:0.68.0
+    swr.cn-north-4.myhuaweicloud.com/firfe/frpc:0.69.0
     ```
   - ARM64镜像
     ```bash
-    swr.cn-north-4.myhuaweicloud.com/firfe/frpc:0.68.0-arm64
+    swr.cn-north-4.myhuaweicloud.com/firfe/frpc:0.69.0-arm64
     ```
 - DockerHub仓库
   - AMD64镜像
     ```bash
-    firfe/frpc:0.68.0
+    firfe/frpc:0.69.0
     ```
   - ARM64镜像
     ```bash
-    firfe/frpc:0.68.0-arm64
+    firfe/frpc:0.69.0-arm64
     ```
 
 ### 部署

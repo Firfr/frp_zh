@@ -1,7 +1,11 @@
 [
   {
     "原文": "\\{ proxy\\.status \\}",
-    "翻译": "{ { 'running': '运行中', 'error': '错误', 'disabled': '禁用', 'waiting': '等待中', 'new': '新创建' }[proxy.status] || proxy.status }"
+    "翻译": "{ fn代理状态转换(proxy.status) }"
+  },
+  {
+    "原文": "div class=\"card-address",
+    "翻译": "div @click.stop class=\"card-address"
   },
   {
     "原文": "Enable",
