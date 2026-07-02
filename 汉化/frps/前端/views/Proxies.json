@@ -1,0 +1,66 @@
+[
+  {
+    "原文": ">Proxies",
+    "翻译": ">代理"
+  },
+  {
+    "原文": "View and manage all proxy configurations",
+    "翻译": "查看和管理所有代理配置"
+  },
+  {
+    "原文": "> Refresh",
+    "翻译": ">刷新"
+  },
+  {
+    "原文": "> Clear Offline",
+    "翻译": ">清除离线代理"
+  },
+  {
+    "原文": "Search proxies",
+    "翻译": "搜索代理"
+  },
+  {
+    "原文": "Search clients",
+    "翻译": "搜索客户端"
+  },
+  {
+    "原文": "All Clients",
+    "翻译": "所有客户端"
+  },
+  {
+    "原文": "not found",
+    "翻译": "未找到"
+  },
+  {
+    "原文": "No proxies found",
+    "翻译": "未找到代理"
+  },
+  {
+    "原文": "Clear Offline",
+    "翻译": "清除离线代理"
+  },
+  {
+    "原文": "Are you sure you want to clear all offline proxies",
+    "翻译": "你确定要清除所有离线代理吗"
+  },
+  {
+    "原文": "\"Clear\"",
+    "翻译": "\"清除\""
+  },
+  {
+    "原文": "Failed to fetch proxies",
+    "翻译": "获取代理失败"
+  },
+  {
+    "原文": "Successfully cleared offline proxies",
+    "翻译": "成功清空离线代理"
+  },
+  {
+    "原文": "Failed to clear offline proxies",
+    "翻译": "清空离线代理失败"
+  },
+  {
+    "原文": "'All'",
+    "翻译": "'所有'"
+  }
+]

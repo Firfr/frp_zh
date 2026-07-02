@@ -1,0 +1,86 @@
+[
+  {
+    "原文": ">Clients<",
+    "翻译": ">客户端<"
+  },
+  {
+    "原文": ">v{",
+    "翻译": ">版本 {"
+  },
+  {
+    "原文": "ip\" class=\"meta-item\">{",
+    "翻译": "ip\" class=\"meta-item\">IP {"
+  },
+  {
+    "原文": "hostname\" class=\"meta-item\">{",
+    "翻译": "hostname\" class=\"meta-item\">主机名 {"
+  },
+  {
+    "原文": "'Online'",
+    "翻译": "'在线'"
+  },
+  {
+    "原文": "'Offline'",
+    "翻译": "'离线'"
+  },
+  {
+    "原文": ">Connections<",
+    "翻译": ">连接数<"
+  },
+  {
+    "原文": "Run ID",
+    "翻译": "运行 ID"
+  },
+  {
+    "原文": "First Connected",
+    "翻译": "首次连接"
+  },
+  {
+    "原文": "'Connected'",
+    "翻译": "'已连接'"
+  },
+  {
+    "原文": "'Disconnected'",
+    "翻译": "'已断开'"
+  },
+  {
+    "原文": ">Proxies<",
+    "翻译": ">代理<"
+  },
+  {
+    "原文": "Search proxies",
+    "翻译": "搜索代理"
+  },
+  {
+    "原文": ">Loading",
+    "翻译": ">加载中"
+  },
+  {
+    "原文": "No proxies match",
+    "翻译": "无匹配代理"
+  },
+  {
+    "原文": "No proxies found",
+    "翻译": "未找到代理"
+  },
+  {
+    "原文": "Client not found",
+    "翻译": "未找到客户端"
+  },
+  {
+    "原文": "The client doesn't exist or has been removed.",
+    "翻译": "客户端不存在或已被移除。"
+  },
+  {
+    "原文": "Back to Clients",
+    "翻译": "返回客户端"
+  },
+  {
+    "原文": "Failed to fetch client",
+    "翻译": "获取客户端失败"
+  },
+  {
+    "原文": ">Protocol",
+    "翻译": ">协议"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "原文": "create server listener error",
+    "翻译": "创建服务监听器失败"
+  },
+  {
+    "原文": "create vhost tcpMuxer error",
+    "翻译": "创建虚拟主机多路复用器失败"
+  },
+  {
+    "原文": "multiplexer listen on %s, passthrough",
+    "翻译": "多路复用器监听在 %s，透传模式"
+  },
+  {
+    "原文": "plugin [%s] has been registered",
+    "翻译": "插件 [%s] 已注册成功"
+  },
+  {
+    "原文": "frps tcp listen on",
+    "翻译": "frps TCP 监听在"
+  },
+  {
+    "原文": "listen on kcp udp address %s error",
+    "翻译": "监听 KCP UDP 地址 %s 失败"
+  },
+  {
+    "原文": "frps kcp listen on udp",
+    "翻译": "frps KCP 监听在 UDP"
+  },
+  {
+    "原文": "listen on quic udp address %s error",
+    "翻译": "监听 QUIC UDP 地址 %s 失败"
+  },
+  {
+    "原文": "frps quic listen on",
+    "翻译": "frps QUIC 监听在"
+  },
+  {
+    "原文": "create ssh gateway error",
+    "翻译": "创建 SSH 网关失败"
+  },
+  {
+    "原文": "frps sshTunnelGateway listen on port",
+    "翻译": "frps SSH 隧道网关监听在端口"
+  },
+  {
+    "原文": "create vhost http listener error",
+    "翻译": "创建虚拟主机 HTTP 监听器失败"
+  },
+  {
+    "原文": "http service listen on",
+    "翻译": "HTTP 服务监听在"
+  },
+  {
+    "原文": "https service listen on",
+    "翻译": "HTTPS 服务监听在"
+  },
+  {
+    "原文": "create vhost httpsMuxer error",
+    "翻译": "创建虚拟主机 HTTPS 多路复用器失败"
+  },
+  {
+    "原文": "create nat hole controller error",
+    "翻译": "创建内网穿透控制器失败"
+  },
+  {
+    "原文": "dashboard listen on",
+    "翻译": "管理仪表盘监听在"
+  },
+  {
+    "原文": "dashboard server exit with error",
+    "翻译": "仪表盘服务异常退出"
+  },
+  {
+    "原文": "register control error",
+    "翻译": "注册控制连接失败"
+  },
+  {
+    "原文": "register visitor conn error",
+    "翻译": "注册访问者连接失败"
+  },
+  {
+    "原文": "error message type for the new connection",
+    "翻译": "使用了不支持的消息类型新连接"
+  },
+  {
+    "原文": "listener for incoming connections from client closed",
+    "翻译": "客户端连接监听器已关闭"
+  },
+  {
+    "原文": "start check TLS connection",
+    "翻译": "开始检查 TLS 连接"
+  },
+  {
+    "原文": "checkAndEnableTLSServerConnWithTimeout error",
+    "翻译": "检查并启用 TLS 服务端连接失败"
+  },
+  {
+    "原文": "check TLS connection success",
+    "翻译": "TLS 连接检查完成"
+  },
+  {
+    "原文": "failed to create mux connection",
+    "翻译": "创建多路复用连接失败"
+  },
+  {
+    "原文": "accept new mux stream error",
+    "翻译": "接收多路复用流失败"
+  },
+  {
+    "原文": "accept new quic mux stream error",
+    "翻译": "接收QUIC多路复用流失败"
+  },
+  {
+    "原文": "client login info: ip [%s] version [%s] hostname [%s] os [%s] arch [%s]",
+    "翻译": "客户端登录信息: IP [%s] 版本 [%s] 主机名 [%s] 系统 [%s] 架构 [%s]"
+  },
+  {
+    "原文": "create new controller error",
+    "翻译": "创建新控制端失败"
+  },
+  {
+    "原文": "unexpected error when creating new controller",
+    "翻译": "创建新控制连接时发生未知错误"
+  },
+  {
+    "原文": "client_id [%s] for user [%s] is already online",
+    "翻译": "用户 [%s] 的 client_id [%s] 已在线"
+  },
+  {
+    "原文": "no client control found for run id",
+    "翻译": "未找的客户端，控制到运行ID为"
+  },
+  {
+    "原文": "invalid NewWorkConn with run id",
+    "翻译": "不合法的工作连接，运行ID"
+  },
+  {
+    "原文": "failed to accept frp connection",
+    "翻译": "接受 frp 连接失败"
+  },
+  {
+    "原文": "write login error response error",
+    "翻译": "写入登录错误响应时发生异常"
+  },
+  {
+    "原文": "write login response error",
+    "翻译": "写入登录响应失败"
+  },
+  {
+    "原文": "invalid NewWorkConn",
+    "翻译": "无效的新工作连接"
+  },
+  {
+    "原文": "read wire protocol magic",
+    "翻译": "读取线路协议魔数 (magic number) 失败"
+  },
+  {
+    "原文": "missing v2 crypto negotiation",
+    "翻译": "缺失 V2 版本加密协商过程"
+  },
+  {
+    "原文": "read first v2 message frame",
+    "翻译": "读取首个 V2 消息帧失败"
+  },
+  {
+    "原文": "decode v2 message",
+    "翻译": "解码 V2 消息失败"
+  },
+  {
+    "原文": "write ServerHello error",
+    "翻译": "写入服务端握手响应 (ServerHello) 失败"
+  },
+  {
+    "原文": "encode ServerHello",
+    "翻译": "编码服务端握手响应 (ServerHello) 失败"
+  },
+  {
+    "原文": "write ServerHello",
+    "翻译": "发送服务端握手响应 (ServerHello) 失败"
+  }
+]

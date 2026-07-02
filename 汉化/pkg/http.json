@@ -1,0 +1,14 @@
+[
+  {
+    "原文": "choose endpoint name [%s] for http request host [%s] path [%s] httpuser",
+    "翻译": "为 HTTP 请求主机 [%s] 路径 [%s] 用户 [%s] 选择端点名称"
+  },
+  {
+    "原文": "do http proxy request [host: %s] error",
+    "翻译": "执行 HTTP 代理请求 [主机: %s] 时发生错误"
+  },
+  {
+    "原文": "get new http request host [%s] path [%s] httpuser",
+    "翻译": "获取新的 HTTP 请求主机 [%s] 路径 [%s] 用户"
+  }
+]

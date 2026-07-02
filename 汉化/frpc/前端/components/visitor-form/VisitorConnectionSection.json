@@ -1,0 +1,38 @@
+[
+  {
+    "原文": "Connection",
+    "翻译": "连接设置"
+  },
+  {
+    "原文": "Server Name",
+    "翻译": "服务名称"
+  },
+  {
+    "原文": "Name of the proxy to visit",
+    "翻译": "要访问的代理名称"
+  },
+  {
+    "原文": "Server User",
+    "翻译": "服务用户"
+  },
+  {
+    "原文": "Leave empty for same user",
+    "翻译": "留空表示使用相同用户"
+  },
+  {
+    "原文": "Secret Key",
+    "翻译": "密钥"
+  },
+  {
+    "原文": "Shared secret",
+    "翻译": "共享密钥"
+  },
+  {
+    "原文": "Bind Address",
+    "翻译": "绑定地址"
+  },
+  {
+    "原文": "Bind Port",
+    "翻译": "绑定端口"
+  }
+]

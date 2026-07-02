@@ -1,0 +1,70 @@
+[
+  {
+    "原文": "proxy closing",
+    "翻译": "代理正在关闭"
+  },
+  {
+    "原文": "failed to get work connection",
+    "翻译": "获取工作连接失败"
+  },
+  {
+    "原文": "get a new work connection",
+    "翻译": "获取到一个新的工作连接"
+  },
+  {
+    "原文": "failed to send message to work connection from pool: %v, times",
+    "翻译": "向连接池中的工作连接发送消息失败: %v，当前重试次数:"
+  },
+  {
+    "原文": "try to get work connection failed in the end",
+    "翻译": "最终尝试获取工作连接失败"
+  },
+  {
+    "原文": "proxy custom listen success",
+    "翻译": "代理自定义监听成功"
+  },
+  {
+    "原文": "met temporary error: %s, sleep for",
+    "翻译": "遇到临时错误: %s，将休眠等待"
+  },
+  {
+    "原文": "listener is closed",
+    "翻译": "监听器已关闭"
+  },
+  {
+    "原文": "get a user connection",
+    "翻译": "获取到一个用户连接"
+  },
+  {
+    "原文": "the user conn [%s] was rejected, err",
+    "翻译": "用户连接 [%s] 被拒绝，错误原因:"
+  },
+  {
+    "原文": "handler user tcp connection, use_encryption: %t, use_compression",
+    "翻译": "处理用户 TCP 连接，是否启用加密: %t，是否启用压缩:"
+  },
+  {
+    "原文": "create encryption stream error",
+    "翻译": "创建加密流失败"
+  },
+  {
+    "原文": "join connections, workConn(l[%s] r[%s]) userConn(l[%s] r[%s])",
+    "翻译": "桥接连接中，工作连接(本地: [%s] 远端: [%s]) 与 用户连接(本地: [%s] 远端: [%s])"
+  },
+  {
+    "原文": "join connections closed",
+    "翻译": "桥接的连接已关闭"
+  },
+  {
+    "原文": "proxy type not support",
+    "翻译": "不支持该代理类型"
+  },
+  {
+    "原文": "proxy not created",
+    "翻译": "代理未创建"
+  },
+  {
+    "原文": "proxy name [%s] is already in use",
+    "翻译": "代理名称 [%s] 已被使用"
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "原文": "Clients",
+    "翻译": "客户端"
+  },
+  {
+    "原文": "Connected clients",
+    "翻译": "已连接客户端"
+  },
+  {
+    "原文": "\"Proxies",
+    "翻译": "\"代理"
+  },
+  {
+    "原文": "Active proxies",
+    "翻译": "活动代理"
+  },
+  {
+    "原文": "Connections",
+    "翻译": "连接数"
+  },
+  {
+    "原文": "Current connections",
+    "翻译": "当前连接数"
+  },
+  {
+    "原文": "\"Traffic",
+    "翻译": "\"流量"
+  },
+  {
+    "原文": "Total today",
+    "翻译": "今日总计"
+  },
+  {
+    "原文": "Network Traffic",
+    "翻译": "网络流量"
+  },
+  {
+    "原文": "Today",
+    "翻译": "今日"
+  },
+  {
+    "原文": "Inbound",
+    "翻译": "入站"
+  },
+  {
+    "原文": "Outbound",
+    "翻译": "出站"
+  },
+  {
+    "原文": "Proxy Types",
+    "翻译": "代理类型"
+  },
+  {
+    "原文": "Now",
+    "翻译": "此刻"
+  },
+  {
+    "原文": "No active proxies",
+    "翻译": "无活动代理"
+  },
+  {
+    "原文": "Server Configuration",
+    "翻译": "服务器配置"
+  },
+  {
+    "原文": "Bind Port",
+    "翻译": "绑定端口"
+  },
+  {
+    "原文": "KCP Port",
+    "翻译": "KCP 端口"
+  },
+  {
+    "原文": "QUIC Port",
+    "翻译": "QUIC 端口"
+  },
+  {
+    "原文": "HTTP Port",
+    "翻译": "HTTP 端口"
+  },
+  {
+    "原文": "HTTPS Port",
+    "翻译": "HTTPS 端口"
+  },
+  {
+    "原文": "TCPMux Port",
+    "翻译": "TCPMux 端口"
+  },
+  {
+    "原文": "Subdomain Host",
+    "翻译": "子域名主机"
+  },
+  {
+    "原文": "Max Pool Count",
+    "翻译": "最大连接池数量"
+  },
+  {
+    "原文": "Max Ports/Client",
+    "翻译": "每个客户端最大端口数"
+  },
+  {
+    "原文": "Allow Ports",
+    "翻译": "允许端口"
+  },
+  {
+    "原文": "TLS Force",
+    "翻译": "强制 TLS"
+  },
+  {
+    "原文": "Enabled",
+    "翻译": "已启用"
+  },
+  {
+    "原文": "Heartbeat Timeout",
+    "翻译": "心跳超时"
+  },
+  {
+    "原文": "no limit",
+    "翻译": "无限制"
+  },
+  {
+    "原文": "Get server info from frps failed!",
+    "翻译": "从 frps 获取服务器信息失败！"
+  }
+]

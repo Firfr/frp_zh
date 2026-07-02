@@ -1,0 +1,62 @@
+[
+  {
+    "原文": "start new connection to server error",
+    "翻译": "启动到服务器的新连接失败"
+  },
+  {
+    "原文": "error during NewWorkConn authentication",
+    "翻译": "NewWorkConn 认证过程出错"
+  },
+  {
+    "原文": "work connection write to server error",
+    "翻译": "工作连接写入服务器失败"
+  },
+  {
+    "原文": "work connection closed before response StartWorkConn message",
+    "翻译": "在收到 StartWorkConn 响应前工作连接已关闭"
+  },
+  {
+    "原文": "StartWorkConn contains error",
+    "翻译": "StartWorkConn 包含错误"
+  },
+  {
+    "原文": "start error",
+    "翻译": "启动失败"
+  },
+  {
+    "原文": "start proxy success",
+    "翻译": "代理启动成功"
+  },
+  {
+    "原文": "dispatch NatHoleResp message to related proxy error",
+    "翻译": "转发 NatHoleResp 消息到对应代理失败"
+  },
+  {
+    "原文": "pong message contains error",
+    "翻译": "心跳响应消息包含错误"
+  },
+  {
+    "原文": "receive heartbeat from server",
+    "翻译": "收到来自服务器的心跳"
+  },
+  {
+    "原文": "send heartbeat to server",
+    "翻译": "向服务器发送心跳"
+  },
+  {
+    "原文": "error during ping authentication",
+    "翻译": "心跳认证过程出错"
+  },
+  {
+    "原文": "skip sending ping message",
+    "翻译": "跳过发送心跳"
+  },
+  {
+    "原文": "heartbeat timeout",
+    "翻译": "心跳超时"
+  },
+  {
+    "原文": "control message dispatcher exited",
+    "翻译": "控制连接消息调度器已退出"
+  }
+]

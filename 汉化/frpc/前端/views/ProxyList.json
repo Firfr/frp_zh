@@ -1,0 +1,94 @@
+[
+  {
+    "原文": "Proxies<",
+    "翻译": "代理<"
+  },
+  {
+    "原文": ">Status",
+    "翻译": ">状态"
+  },
+  {
+    "原文": "Store<",
+    "翻译": "动态存储<"
+  },
+  {
+    "原文": "+ New Proxy",
+    "翻译": "+ 新建代理"
+  },
+  {
+    "原文": "\"Search",
+    "翻译": "\"搜索"
+  },
+  {
+    "原文": "\"Source",
+    "翻译": "\"来源"
+  },
+  {
+    "原文": "\"Type",
+    "翻译": "\"类型"
+  },
+  {
+    "原文": "No proxies found",
+    "翻译": "未找到代理"
+  },
+  {
+    "原文": "Proxies will appear here once configured and connected.",
+    "翻译": "代理配置并连接后会显示在这里。"
+  },
+  {
+    "原文": "Store is not enabled. Add the following to your frpc configuration:",
+    "翻译": "动态存储功能未启用，请在 frpc 配置中添加以下内容："
+  },
+  {
+    "原文": "No store proxies",
+    "翻译": "暂无存储的代理"
+  },
+  {
+    "原文": "Click \"New Proxy\" to create one.",
+    "翻译": "点击“新建代理”创建。"
+  },
+  {
+    "原文": "Delete Proxy",
+    "翻译": "删除代理"
+  },
+  {
+    "原文": "\"Delete\"",
+    "翻译": "\"删除\""
+  },
+  {
+    "原文": "Failed to get status:",
+    "翻译": "获取状态失败："
+  },
+  {
+    "原文": "Proxy enabled",
+    "翻译": "代理已启用"
+  },
+  {
+    "原文": "Proxy disabled",
+    "翻译": "代理已禁用"
+  },
+  {
+    "原文": "Operation failed:",
+    "翻译": "操作失败："
+  },
+  {
+    "原文": "Unknown error",
+    "翻译": "未知错误"
+  },
+  {
+    "原文": "Are you sure you want to delete",
+    "翻译": "确定要删除"
+  },
+  {
+    "原文": "? This action cannot be undone.",
+    "翻译": "吗？此操作无法撤销。"
+  },
+  {
+    "原文": "Proxy deleted",
+    "翻译": "代理已删除"
+  },
+  {
+    "原文": "Delete failed:",
+    "翻译": "删除失败："
+  }
+]

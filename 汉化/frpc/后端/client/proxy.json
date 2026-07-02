@@ -1,0 +1,34 @@
+[
+  {
+    "原文": "create encryption stream error",
+    "翻译": "创建加密流错误"
+  },
+  {
+    "原文": "handle tcp work connection, useEncryption",
+    "翻译": "处理 TCP 工作连接，使用加密"
+  },
+  {
+    "原文": "useCompression",
+    "翻译": "使用压缩"
+  },
+  {
+    "原文": "wrap work connection",
+    "翻译": "包装工作连接"
+  },
+  {
+    "原文": "handle by plugin finished",
+    "翻译": "插件处理完成"
+  },
+  {
+    "原文": "connect to local service",
+    "翻译": "连接本地服务"
+  },
+  {
+    "原文": "write proxy protocol header to local conn error",
+    "翻译": "向本地连接写入代理协议头错误"
+  },
+  {
+    "原文": "join connections errors",
+    "翻译": "连接合并错误"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "原文": "<div class=\"page-header\">",
+    "翻译": "<div class=\"page-header\" style=\"flex-direction: column; align-items: flex-start;\">"
+  },
+  {
+    "原文": ">Visitors",
+    "翻译": ">访客"
+  },
+  {
+    "原文": "Store<",
+    "翻译": "动态存储<"
+  },
+  {
+    "原文": "+ New Visitor",
+    "翻译": "+ 新建访客"
+  },
+  {
+    "原文": "Store is not enabled. Add the following to your frpc configuration:",
+    "翻译": "存储功能未启用，请在 frpc 配置中添加以下内容："
+  },
+  {
+    "原文": "\"Search",
+    "翻译": "\"搜索"
+  },
+  {
+    "原文": "Type",
+    "翻译": "类型"
+  },
+  {
+    "原文": "  Edit",
+    "翻译": "编辑"
+  },
+  {
+    "原文": "  Delete",
+    "翻译": "删除"
+  },
+  {
+    "原文": "No visitors found",
+    "翻译": "未找到访客"
+  },
+  {
+    "原文": "Click \"New Visitor\" to create one.",
+    "翻译": "点击“新建访客”创建。"
+  },
+  {
+    "原文": "Delete Visitor",
+    "翻译": "删除访客"
+  },
+  {
+    "原文": "\"Delete",
+    "翻译": "\"删除"
+  },
+  {
+    "原文": "Are you sure you want to delete visitor",
+    "翻译": "确定要删除访客"
+  },
+  {
+    "原文": "? This action cannot be undone.",
+    "翻译": "吗？此操作无法撤销。"
+  },
+  {
+    "原文": "Visitor deleted",
+    "翻译": "访客已删除"
+  },
+  {
+    "原文": "Delete failed:",
+    "翻译": "删除失败："
+  },
+  {
+    "原文": "Unknown error",
+    "翻译": "未知错误"
+  }
+]

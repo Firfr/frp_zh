@@ -1,0 +1,18 @@
+[
+  {
+    "原文": "send %s request to plugin [%s] error",
+    "翻译": "向插件 [%s] 发送 %s 请求失败"
+  },
+  {
+    "原文": "send \" + op + \" request to plugin error",
+    "翻译": "向插件发送 \" + op + \" 请求失败"
+  },
+  {
+    "原文": "send CloseProxy request to plugin [%s] error",
+    "翻译": "向插件 [%s] 发送关闭代理 (CloseProxy) 请求失败"
+  },
+  {
+    "原文": "send CloseProxy request to plugin errors",
+    "翻译": "向插件发送关闭代理 (CloseProxy) 请求时发生异常"
+  }
+]

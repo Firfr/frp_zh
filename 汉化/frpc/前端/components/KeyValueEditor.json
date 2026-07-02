@@ -1,0 +1,14 @@
+[
+  {
+    "原文": "\"keyPlaceholder\"",
+    "翻译": "\"{ Key: '键', Header: '请求头名称' }[keyPlaceholder] || keyPlaceholder\""
+  },
+  {
+    "原文": "\"valuePlaceholder\"",
+    "翻译": "\"valuePlaceholder === 'Value' ? '值' : valuePlaceholder\""
+  },
+  {
+    "原文": " Add",
+    "翻译": "添加"
+  }
+]

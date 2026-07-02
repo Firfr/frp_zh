@@ -1,0 +1,6 @@
+[
+  {
+    "原文": "https proxy listen for host [%s] group",
+    "翻译": "HTTPS 代理正在监听，主机: [%s]，分组: [%s]"
+  }
+]

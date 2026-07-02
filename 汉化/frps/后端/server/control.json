@@ -1,0 +1,78 @@
+[
+  {
+    "原文": "replaced by client",
+    "翻译": "已被客户端替换"
+  },
+  {
+    "原文": "panic error",
+    "翻译": "程序崩溃异常"
+  },
+  {
+    "原文": "new work connection registered",
+    "翻译": "已注册新的工作连接"
+  },
+  {
+    "原文": "work connection pool is full, discarding",
+    "翻译": "工作连接池已满，正在丢弃该连接"
+  },
+  {
+    "原文": "get work connection from pool",
+    "翻译": "从连接池中获取工作连接"
+  },
+  {
+    "原文": "control is already closed",
+    "翻译": "控制连接已关闭"
+  },
+  {
+    "原文": "no work connections available,",
+    "翻译": "没有可用的工作连接"
+  },
+  {
+    "原文": "timeout trying to get work connection",
+    "翻译": "尝试获取工作连接超时"
+  },
+  {
+    "原文": "heartbeat timeout",
+    "翻译": "心跳超时"
+  },
+  {
+    "原文": "client exit success",
+    "翻译": "客户端退出成功"
+  },
+  {
+    "原文": "new proxy [%s] type [%s] error",
+    "翻译": "新建代理 [%s] 类型 [%s]) 失败"
+  },
+  {
+    "原文": "new proxy [%s] error",
+    "翻译": "新建代理 [%s] 失败"
+  },
+  {
+    "原文": "new proxy [%s] type [%s] success",
+    "翻译": "新建代理 [%s] 类型 [%s]) 成功"
+  },
+  {
+    "原文": "received invalid ping",
+    "翻译": "收到无效的 Ping 请求"
+  },
+  {
+    "原文": "invalid ping",
+    "翻译": "无效的 Ping 请求"
+  },
+  {
+    "原文": "receive heartbeat",
+    "翻译": "收到心跳包"
+  },
+  {
+    "原文": "close proxy [%s] success",
+    "翻译": "关闭代理 [%s] 成功"
+  },
+  {
+    "原文": "exceed the max_ports_per_client",
+    "翻译": "超出单客户端最大端口数限制"
+  },
+  {
+    "原文": "proxy [%s] already exists",
+    "翻译": "代理 [%s] 已存在"
+  }
+]

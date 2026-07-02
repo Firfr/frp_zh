@@ -1,0 +1,34 @@
+[
+  {
+    "原文": ">Clients",
+    "翻译": ">客户端"
+  },
+  {
+    "原文": "Manage connected clients and their status",
+    "翻译": "管理已连接的客户端和状态"
+  },
+  {
+    "原文": "Search clients",
+    "翻译": "搜索客户端"
+  },
+  {
+    "原文": "No clients found",
+    "翻译": "没有找到客户端"
+  },
+  {
+    "原文": "All",
+    "翻译": "所有"
+  },
+  {
+    "原文": "Online",
+    "翻译": "在线"
+  },
+  {
+    "原文": "Offline",
+    "翻译": "离线"
+  },
+  {
+    "原文": "Failed to fetch clients",
+    "翻译": "获取客户端失败"
+  }
+]

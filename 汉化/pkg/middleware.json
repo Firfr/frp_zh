@@ -1,0 +1,10 @@
+[
+  {
+    "原文": "http request",
+    "翻译": "HTTP 请求"
+  },
+  {
+    "原文": "http response [%s]: code",
+    "翻译": "HTTP 响应 [%s]：状态码"
+  }
+]

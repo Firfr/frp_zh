@@ -1,0 +1,16 @@
+*
+
+!.gitignore
+
+!README.md
+
+!本地调试命令记录.md
+!汉化和修改.md
+!汉化/
+!汉化/**
+
+!图片/
+!图片/**
+
+!Dockerfile-frps
+!Dockerfile-frpc

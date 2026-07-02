@@ -1,0 +1,30 @@
+[
+  {
+    "原文": "{ proxy.status }",
+    "翻译": "{ fn代理状态转换(proxy.status) }"
+  },
+  {
+    "原文": "div class=\"card-address",
+    "翻译": "div @click.stop class=\"card-address"
+  },
+  {
+    "原文": "Enable",
+    "翻译": "启用"
+  },
+  {
+    "原文": "Disable",
+    "翻译": "禁用"
+  },
+  {
+    "原文": "  Edit",
+    "翻译": "编辑"
+  },
+  {
+    "原文": "  Delete",
+    "翻译": "删除"
+  },
+  {
+    "原文": "{ displaySource }",
+    "翻译": "{ displaySource === 'config' ? '配置文件' : '动态存储' }"
+  }
+]
